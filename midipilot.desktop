@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=MIDIPilot
+Type=Application
+Exec=lxterminal -e "cd /home/pi/MIDIPilot/ && python main.py"
+Terminal=false

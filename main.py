@@ -98,9 +98,13 @@ class MidiInputHandler(object):
 with open("config.json") as json_data_file:
     data = json.load(json_data_file)
 
+midiout = rtmidi.MidiOut()
+available_ports = midiout.get_ports()
+print(available_ports)
+
 try:
-    midiin_GCP, port_name_GCP = open_midiinput(0)
-    midiout_GCP, port_name_GCP = open_midioutput(0)
+    midiin_GCP, port_name_GCP = open_midiinput(1)
+    midiout_GCP, port_name_GCP = open_midioutput(1)
 
 except (EOFError, KeyboardInterrupt): 
     sys.exit()
