@@ -12,7 +12,6 @@ I have an idea on several features to make this a lot easier for people who are 
 * Micro HDMI to HDMI cable or whatever display connecter (to connect your Raspberry Pi to a display).
 * USB mouse or keyboard, or one of them to setup the bluetooth ones.
 
-
 ### Installation
 After inserting the micro SD, connecting the Raspberry Pi to the display connector, USB C for power, and mouse and keyboard. Connect to a Wifi network or use lan to connect to the internet. Then, open a terminal window and run the following:
 
@@ -25,6 +24,10 @@ After inserting the micro SD, connecting the Raspberry Pi to the display connect
 1. Run `./install.sh`
 1. Reboot.
 2. Now shred! 🤘🤘
+
+### Configuration
+
+Edit the 'config.json' file as you see fit to map out the different midi conversions. Mainly you would want to edit the "MIDI_TO_QC" keys. So your input MIDI CC message from the MIDI Foot Controller should replace the numbers "0", "1", "2",. Note: 'smpA' represents stomp A, 'smpB' represents stomp B, etc.
 
 ### Contribution
 Feel free to post recommendations or features in the issues section. I dont have any contribution guidelines yet as I am not sure if there will be significant activity worth the effort.
