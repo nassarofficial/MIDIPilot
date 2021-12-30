@@ -3,13 +3,13 @@
 
 This project was initiated to give extra control capabilities through MIDI to Neural DSP's Quad Cortex. MIDIPilot currently enables you to turn on stomp effects through an external MIDI pedal (Voodoo Lab Ground Control Pro) while "remaining" in scene mode. Right now this program is very simple and what it does is send a series of MIDI CC messages to achieve the result needed. This program of course can be edited to work with any other MIDI pedal.
 
-I have an idea on several features to make this a lot easier for people who are not necassary technical, but it all depends on the interaction I get. Also this is just a quick shortcut to the scene/stomp switching. But I have a pretty groundbreaking feature that I am working on that I will reveal once I make some progress.
+I have an idea on several features to make this a lot easier for people who are not necessary technical, but it all depends on the interaction I get. Also this is just a quick shortcut to the scene/stomp switching. But I have a pretty groundbreaking feature that I am working on that I will reveal once I make some progress.
 ### Requirements
 * Raspberry PI (preferrably V4 if you want to support upcoming new features)
 * MIDI TO USB Dongle: [TIE Studio MIDI 1i1o ](https://tie-products.com/en/produkt/midi-1i1o/) (I am pretty sure any decent MIDI TO USB dongle would work)
-* USB C cable for powering the Rapberry Pi
+* USB C cable for powering the Raspberry Pi
 * [SD card with Noob OS](https://www.amazon.com/Raspberry-Pi-32GB-Preloaded-NOOBS/dp/B01LXR6EOA)
-* Micro HDMI to HDMI cable or whatever display connecter (to connect your Raspberry Pi to a display).
+* Micro HDMI to HDMI cable or whatever display connector (to connect your Raspberry Pi to a display).
 * USB mouse or keyboard, or one of them to setup the bluetooth ones.
 
 ### Installation
